@@ -1,0 +1,19 @@
+body {
+    height: 655px;
+    width: 1660px;
+}
+.bg-box {
+    height:655px;
+    width: 1200px;
+    position: relative;
+    background: center;
+    background-image: url(/img/lamp-png-0.png),
+    url(/img/grass-png-images-pictures-transparent-28.png),
+    url(/img/Ёжик.png),
+    url(/img/ponchik.png),
+    url(/img/pole-zelen-trava-dom-derevya.jpg);
+    background-position: top right, bottom left,  top left, top right, center;
+    background-color: darkgreen;
+    background-size: 40px, 270px, 40px, 40px, 550px;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y, no-repeat ;
+}
